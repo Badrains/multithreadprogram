@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * @author wangdong
  */
-public class item1 {
+public class SimpleJavaApp {
 
     public static void main(String[] args) throws Exception {
         while (true) {

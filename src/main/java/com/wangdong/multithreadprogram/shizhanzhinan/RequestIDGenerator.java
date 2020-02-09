@@ -1,11 +1,13 @@
 package com.wangdong.multithreadprogram.shizhanzhinan;
 
 import com.wangdong.multithreadprogram.shizhanzhinan.service.CircularSeqGenerator;
-import jdk.nashorn.internal.ir.RuntimeNode;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @author wangdong
+ */
 public class RequestIDGenerator implements CircularSeqGenerator {
     /**
      * 保存该类的唯一实例

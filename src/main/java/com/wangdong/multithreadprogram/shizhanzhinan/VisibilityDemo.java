@@ -19,7 +19,7 @@ public class VisibilityDemo {
     }
 
     static class TimeConsumingTask implements Runnable {
-        private boolean toCancel = false;
+        private volatile boolean toCancel = false;
 
         @Override
         public void run() {
@@ -43,8 +43,9 @@ public class VisibilityDemo {
         }
 
         public void cancel() {
-            toCancel = true;
             log.info("canceled");
+            toCancel = true;
+
         }
     }
 }

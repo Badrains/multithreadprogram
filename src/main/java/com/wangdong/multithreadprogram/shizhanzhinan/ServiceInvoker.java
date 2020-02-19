@@ -2,7 +2,9 @@ package com.wangdong.multithreadprogram.shizhanzhinan;
 
 import lombok.extern.slf4j.Slf4j;
 import sun.misc.Request;
-import sun.rmi.transport.Endpoint;
+
+import javax.xml.ws.Endpoint;
+
 
 /**
  * @author wangdong
@@ -37,7 +39,7 @@ public class ServiceInvoker {
      * @param request
      */
     public void dispatchRequest(Request request) {
-        Endpoint endpoint = getLoadBalancer().nextEndpint();
+        Endpoint endpoint = getLoadBalancer().nextEndpoint();
 
         if (null == endpoint) {
             //-----省略

@@ -1,12 +1,10 @@
-package com.wangdong.multithreadprogram.shizhanzhinan;
-
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.URL;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * @description:
+ * @description: 4-1
  * @author: wangdong
  * @date: 2020/2/20 16:58
  */
@@ -95,5 +93,19 @@ public class BigFileDownloader {
     private long retieveFileSize(URL requestURL) {
         //-----略
         return 0L;
+    }
+
+    private class DownloadTask {
+        public DownloadTask(long lowerBound, long upperBound, URL requestURL, Storage storage, AtomicBoolean taskCanceled) {
+        }
+        public void run(){
+
+        }
+    }
+
+    private class Storage {
+        public Storage(long fileSize, String fileName){
+
+        }
     }
 }

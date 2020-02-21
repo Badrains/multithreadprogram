@@ -1,7 +1,7 @@
 package com.wangdong.multithreadprogram.shizhanzhinan.chapterthree;
 
 /**
- * @description:
+ * @description: 3-28
  * @author: wangdong
  * @date: 2020/2/20 14:47
  */

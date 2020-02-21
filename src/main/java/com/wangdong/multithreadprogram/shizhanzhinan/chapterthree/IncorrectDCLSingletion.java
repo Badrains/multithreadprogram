@@ -1,6 +1,7 @@
 package com.wangdong.multithreadprogram.shizhanzhinan.chapterthree;
 
 /**
+ * @description: 3-16
  * @author wangdong
  */
 public class IncorrectDCLSingletion {

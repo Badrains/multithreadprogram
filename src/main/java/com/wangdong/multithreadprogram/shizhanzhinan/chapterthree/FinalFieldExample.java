@@ -3,7 +3,7 @@ package com.wangdong.multithreadprogram.shizhanzhinan.chapterthree;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @description:
+ * @description: 3-27
  * @author: wangdong
  * @date: 2020/2/20 14:20
  */

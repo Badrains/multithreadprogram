@@ -2,7 +2,7 @@ package com.wangdong.multithreadprogram.shizhanzhinan.chaptertwo;
 
 /**
  * @author wangdong
- * @description AtomicityExample
+ * @description 2-5
  * @since 2020/2/11 16:51
  */
 public class AtomicityExample {

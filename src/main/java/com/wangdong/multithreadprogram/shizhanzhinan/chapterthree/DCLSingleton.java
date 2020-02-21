@@ -1,6 +1,7 @@
 package com.wangdong.multithreadprogram.shizhanzhinan.chapterthree;
 
 /**
+ * @description: 3-17
  * @author wangdong
  */
 public class DCLSingleton {

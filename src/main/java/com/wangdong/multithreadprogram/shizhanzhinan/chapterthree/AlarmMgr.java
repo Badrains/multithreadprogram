@@ -3,6 +3,7 @@ package com.wangdong.multithreadprogram.shizhanzhinan.chapterthree;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
+ * @description: 3-24
  * @author wangdong
  */
 public enum AlarmMgr implements Runnable{

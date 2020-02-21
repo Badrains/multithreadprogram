@@ -97,17 +97,4 @@ public class BigFileDownloader {
         return 0L;
     }
 
-    private class DownloadTask {
-        public DownloadTask(long lowerBound, long upperBound, URL requestURL, Storage storage, AtomicBoolean taskCanceled) {
-        }
-        public void run(){
-
-        }
-    }
-
-    private class Storage {
-        public Storage(long fileSize, String fileName){
-
-        }
-    }
 }

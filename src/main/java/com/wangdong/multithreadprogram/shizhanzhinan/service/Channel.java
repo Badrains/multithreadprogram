@@ -5,7 +5,7 @@ package com.wangdong.multithreadprogram.shizhanzhinan.service;
  * @author: wangdong
  * @date: 2020/2/24 17:45
  */
-public interface Cannel<P> {
+public interface Channel<P> {
     /**
      * 往传输通道中存入一个产品
      * @param product
